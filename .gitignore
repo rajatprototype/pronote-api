@@ -1,0 +1,10 @@
+node_modules/
+notes/
+temp/
+
+*.rest
+*.http
+*.log
+*.cache
+yarn.lock
+package-lock.json

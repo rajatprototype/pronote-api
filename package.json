@@ -1,0 +1,28 @@
+{
+  "name": "pronote-server",
+  "version": "1.0.0",
+  "description": "API service of Pronote",
+  "preferGlobal": false,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "pronote",
+    "pronote-api"
+  ],
+  "author": {
+    "name": "Rajat Sharma",
+    "email": "rajat.prototype@gmail.com",
+    "url": "https://github.com/rajatprototype"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
